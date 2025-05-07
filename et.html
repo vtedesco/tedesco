@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="et">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vivien — Développeur SaaS</title>
+  <title>Vivien — SaaS Arendaja</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <style>
@@ -165,70 +165,6 @@
       font-size: 1.1rem;
     }
 
-    .contact {
-      background: var(--accent);
-      border-radius: 16px;
-      padding: 4rem 2rem;
-      text-align: center;
-      margin-top: 4rem;
-    }
-
-    .contact h2 {
-      color: var(--primary);
-    }
-
-    .contact p {
-      font-size: 1.2rem;
-      margin: 1rem 0;
-    }
-
-    .social-links {
-      margin-top: 2rem;
-    }
-
-    .social-links a {
-      display: inline-block;
-      margin: 0 1rem;
-      font-size: 1.5rem;
-      color: var(--primary);
-      transition: transform 0.3s;
-    }
-
-    .social-links a:hover {
-      transform: translateY(-3px);
-    }
-
-    a {
-      color: var(--primary);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    footer {
-      text-align: center;
-      padding: 3rem 1rem;
-      background: var(--light);
-      font-size: 0.9rem;
-      color: #777;
-    }
-
-    @media (max-width: 768px) {
-      .hero h1 {
-        font-size: 2.5rem;
-      }
-      
-      .hero p {
-        font-size: 1.2rem;
-      }
-      
-      section {
-        padding: 4rem 1.5rem;
-      }
-    }
-
     .missions {
       background: var(--light);
       padding: 6rem 2rem;
@@ -325,12 +261,6 @@
       text-decoration: none;
     }
 
-    @media (max-width: 768px) {
-      .missions-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-
     .mission-card.mvp-card {
       position: relative;
       overflow: hidden;
@@ -352,259 +282,282 @@
     .mission-card.mvp-card .mission-cta:hover {
       background: #FF8E53;
     }
+
+    .contact {
+      background: var(--accent);
+      border-radius: 16px;
+      padding: 4rem 2rem;
+      text-align: center;
+      margin-top: 4rem;
+    }
+
+    .contact h2 {
+      color: var(--primary);
+    }
+
+    .contact p {
+      font-size: 1.2rem;
+      margin: 1rem 0;
+    }
+
+    .social-links {
+      margin-top: 2rem;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin: 0 1rem;
+      font-size: 1.5rem;
+      color: var(--primary);
+      transition: transform 0.3s;
+    }
+
+    .social-links a:hover {
+      transform: translateY(-3px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: var(--light);
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+      
+      .hero p {
+        font-size: 1.2rem;
+      }
+      
+      section {
+        padding: 4rem 1.5rem;
+      }
+
+      .missions-grid {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
 <body>
 
 <div class="language-selector">
-  <a href="index.html" class="active">FR</a>
+  <a href="index.html">FR</a>
   <a href="en.html">EN</a>
-  <a href="et.html">ET</a>
+  <a href="et.html" class="active">ET</a>
 </div>
 
 <div class="hero">
   <div class="hero-content">
-    <h1>Transformez vos idées en SaaS performant</h1>
-    <p>Développeur spécialisé dans la création de solutions SaaS sur mesure, évolutives et rentables</p>
-    <a href="#contact" class="cta-button">Démarrer votre projet</a>
+    <h1>Teisendage Oma Ideed Võimsaks SaaS-iks</h1>
+    <p>Spetsialiseerun kohandatud, skaleeritavate ja kasumlike SaaS lahenduste loomisele</p>
+    <a href="#contact" class="cta-button">Alustage Oma Projekti</a>
   </div>
 </div>
 
-
 <section>
-  <h2>À propos de Vivien</h2>
+  <h2>Vivienist</h2>
   <div style="max-width: 900px; margin: auto; text-align: center;">
     <div style="margin-bottom: 2rem;">
       <img 
         src="https://media.licdn.com/dms/image/v2/D4E03AQGsLzAPFOHoNQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715345802185?e=1752105600&v=beta&t=OoU4u6hgI2Pp9clkn-nZ1k-CM4_fWID7YkR2DYIQe9k" 
-        alt="Vivien - Développeur SaaS"
+        alt="Vivien - SaaS Arendaja"
         style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; box-shadow: 0 10px 30px rgba(0,0,0,0.1);"
       />
     </div>
     <p style="font-size: 1.2rem; color: #444; margin-bottom: 2rem;">
-      Passionné par le développement web depuis plus de 15 ans, je me suis spécialisé dans la conception de produits SaaS robustes, élégants et évolutifs. 
-      J'accompagne les porteurs de projets et les équipes techniques pour transformer des idées ambitieuses en solutions concrètes, performantes et rentables.
+      Üle 15 aasta veebiarenduse kogemusega spetsialiseerun ma tugevate, elegantse ja skaleeritavate SaaS toodete loomisele. 
+      Aitan projekti omanikel ja tehnilistel meeskondadel muuta ambitsioonikad ideed konkreetseteks, jõudlikeks ja kasumlikeks lahendusteks.
     </p>
     <p style="font-size: 1.1rem; color: #555; margin-bottom: 2rem;">
-      Mon approche repose sur une forte culture produit, une expertise technique full-stack, et une capacité à m'intégrer rapidement dans des contextes variés : 
-      start-ups en démarrage, scale-ups en phase d'accélération, ou entreprises établies en quête d'innovation.
+      Minu lähenemine põhineb tugeval toote kultuuril, täielikul tehnilisel oskusel ja võimel kiiresti integreeruda erinevatesse kontekstidesse: 
+      varajase etapi stardiettevõtted, skaleeruvad ettevõtted või innovatsiooni otsivad tugevad ettevõtted.
     </p>
     <p style="font-size: 1rem; color: #666;">
-      #PHP #Symfony #Laravel #React #VueJS #NodeJS #DevOps #Agile #SaaS #Startup #Scaleup #Entreprise
-      #CTO #FullStack #Product #DevOps #Agile #SaaS #Startup #Scaleup #Entreprise
+      #PHP #Symfony #Laravel #React #VueJS #NodeJS #DevOps #Agile #SaaS #Startup #Scaleup #Enterprise
+      #CTO #FullStack #Product #DevOps #Agile #SaaS #Startup #Scaleup #Enterprise
     </p>
   </div>
 </section>
 
 <section>
-  <h2>Solutions SaaS sur mesure</h2>
-  <div class="services">
-    <div class="card">
-      <i class="fas fa-code"></i>
-      <h3>Développement Full-Stack</h3>
-      <p>Création d'applications SaaS complètes avec les dernières technologies : Symfony, Laravel, React, Vue.js et Node.js.</p>
-    </div>
-    <div class="card">
-      <i class="fas fa-rocket"></i>
-      <h3>Migration SaaS</h3>
-      <p>Transformation de vos outils existants en solutions SaaS modernes, scalables et rentables.</p>
-    </div>
-    <div class="card">
-      <i class="fas fa-chart-line"></i>
-      <h3>Stratégie Produit</h3>
-      <p>Accompagnement complet : go-to-market, roadmap produit, architecture technique et modèle économique.</p>
-    </div>
-    <div class="card">
-      <i class="fas fa-plug"></i>
-      <h3>Intégrations Avancées</h3>
-      <p>Connexion avec les meilleurs services : Stripe, Sendinblue, Algolia, Zapier et plus encore.</p>
-    </div>
-    <div class="card">
-      <i class="fas fa-shield-alt"></i>
-      <h3>Support & Maintenance</h3>
-      <p>Suivi technique, évolutions et maintenance proactive pour garantir la performance de votre SaaS.</p>
-    </div>
-  </div>
-</section>
-
-<section class="missions">
-  <h2>Missions Types</h2>
-
+  <h2>Tüüpilised Missioonid</h2>
   <div class="missions-grid">
-    <div class="mission-card mvp-card">
+    <div class="mission-card">
       <div class="mission-header">
-        <i class="fas fa-rocket"></i>
-        <h3>MVP SaaS</h3>
-        <span class="duration">4-6 semaines</span>
+        <i class="fas fa-lightbulb"></i>
+        <h3>Tehniline Toote Avastamine</h3>
+        <span class="duration">2 nädalat</span>
       </div>
       <div class="mission-content">
-        <p>Développement complet de la première version de votre SaaS, prête pour le marché.</p>
+        <p>Asutajatele või tootemeeskondadele, kes soovivad oma SaaS ideed tehniliselt valideerida.</p>
         <ul>
-          <li>Fonctionnalités essentielles</li>
-          <li>Interface utilisateur moderne</li>
-          <li>Intégration paiements</li>
-          <li>Déploiement production</li>
+          <li>Tehniline skoopingu töötuba</li>
+          <li>Põhifunktsioonide kaardistamine</li>
+          <li>Sihtarhitektuur</li>
+          <li>Realistlik hinnang ja prioriteetide seadmine</li>
+          <li>Tehniline dokumentatsioon + MVP plaan</li>
         </ul>
-        <a href="https://calendly.com/vivien-tedesco/30min" class="mission-cta" target="_blank">Lancer votre MVP</a>
+        <a href="https://calendly.com/vivien-tedesco/30min" class="mission-cta" target="_blank">Alusta Avastamist</a>
       </div>
     </div>
 
     <div class="mission-card">
       <div class="mission-header">
         <i class="fas fa-user-graduate"></i>
-        <h3>Coaching CTO Junior</h3>
-        <span class="duration">1 mois</span>
+        <h3>Noore CTO Koolitamine</h3>
+        <span class="duration">1 kuu</span>
       </div>
       <div class="mission-content">
-        <p>Accompagnement personnalisé pour développer vos compétences techniques et managériales.</p>
+        <p>Isikupärastatud koolitus tehniliste ja juhtimisoskuste arendamiseks.</p>
         <ul>
-          <li>2 sessions hebdomadaires</li>
-          <li>Mentorat technique</li>
-          <li>Gestion d'équipe</li>
-          <li>Roadmap produit</li>
+          <li>2 nädalast sessiooni</li>
+          <li>Tehniline mentorlus</li>
+          <li>Meeskonna juhtimine</li>
+          <li>Toote teekonna plaan</li>
         </ul>
-        <a href="https://calendly.com/vivien-tedesco/30min" class="mission-cta" target="_blank">Démarrer le coaching</a>
+        <a href="https://calendly.com/vivien-tedesco/30min" class="mission-cta" target="_blank">Alusta Koolitust</a>
       </div>
     </div>
-    <div class="mission-card">
-      <div class="mission-header">
-        <i class="fas fa-clipboard-check"></i>
-        <h3>Audit Technique</h3>
-        <span class="duration">5 jours</span>
-      </div>
-      <div class="mission-content">
-        <p>Analyse complète de votre infrastructure actuelle avec recommandations détaillées pour l'optimisation et la scalabilité.</p>
-        <ul>
-          <li>Analyse de l'architecture</li>
-          <li>Audit de sécurité</li>
-          <li>Recommandations techniques</li>
-          <li>Livrable PDF détaillé</li>
-        </ul>
-        <a href="https://calendly.com/vivien-tedesco/30min" class="mission-cta" target="_blank">Demander un audit</a>
-      </div>
-    </div>
-    <div class="mission-card">
-      <div class="mission-header">
-        <i class="fas fa-lightbulb"></i>
-        <h3>Product Discovery Tech</h3>
-        <span class="duration">2 semaines</span>
-      </div>
-      <div class="mission-content">
-        <p>Pour les fondateurs ou équipes produits souhaitant valider techniquement une idée SaaS.</p>
-        <ul>
-          <li>Atelier de cadrage technique</li>
-          <li>Mapping des fonctionnalités clés</li>
-          <li>Architecture cible</li>
-          <li>Chiffrage réaliste & priorisation</li>
-          <li>Dossier technique + plan de MVP</li>
-        </ul>
-        <a href="https://calendly.com/vivien-tedesco/30min" class="mission-cta" target="_blank">Démarrer la discovery</a>
-      </div>
-    </div>
-
 
     <div class="mission-card">
       <div class="mission-header">
         <i class="fas fa-sync-alt"></i>
-        <h3>Transformation SaaS</h3>
-        <span class="duration">3 sprints</span>
+        <h3>SaaS Transformatsioon</h3>
+        <span class="duration">3 sprinti</span>
       </div>
       <div class="mission-content">
-        <p>Migration de votre application vers une architecture SaaS moderne et scalable.</p>
+        <p>Teie rakenduse migreerimine modernseks ja skaleeritavaks SaaS arhitektuuriks.</p>
         <ul>
-          <li>Architecture multi-tenant</li>
-          <li>Mise en place des paiements</li>
-          <li>Gestion des utilisateurs</li>
-          <li>Documentation complète</li>
+          <li>Mitme rentniku arhitektuur</li>
+          <li>Maksete integratsioon</li>
+          <li>Kasutajate haldamine</li>
+          <li>Täielik dokumentatsioon</li>
         </ul>
-        <a href="https://calendly.com/vivien-tedesco/30min" class="mission-cta" target="_blank">Planifier la transformation</a>
+        <a href="https://calendly.com/vivien-tedesco/30min" class="mission-cta" target="_blank">Plaani Transformatsioon</a>
       </div>
     </div>
 
+    <div class="mission-card mvp-card">
+      <div class="mission-header">
+        <i class="fas fa-rocket"></i>
+        <h3>SaaS MVP</h3>
+        <span class="duration">4-6 nädalat</span>
+      </div>
+      <div class="mission-content">
+        <p>Teie SaaS-i esimese versiooni täielik arendamine, turule valmis.</p>
+        <ul>
+          <li>Olulised funktsioonid</li>
+          <li>Modernne kasutajaliides</li>
+          <li>Maksete integratsioon</li>
+          <li>Tootmise juurutamine</li>
+        </ul>
+        <a href="https://calendly.com/vivien-tedesco/30min" class="mission-cta" target="_blank">Käivita Oma MVP</a>
+      </div>
+    </div>
+
+    <div class="mission-card">
+      <div class="mission-header">
+        <i class="fas fa-clipboard-check"></i>
+        <h3>Tehniline Audit</h3>
+        <span class="duration">5 päeva</span>
+      </div>
+      <div class="mission-content">
+        <p>Teie praeguse infrastruktuuri täielik analüüs koos detailsete soovitustega optimeerimiseks ja skaleeritavuseks.</p>
+        <ul>
+          <li>Arhitektuuri analüüs</li>
+          <li>Turvalisuse audit</li>
+          <li>Tehnilised soovitused</li>
+          <li>Detailne PDF dokument</li>
+        </ul>
+        <a href="https://calendly.com/vivien-tedesco/30min" class="mission-cta" target="_blank">Taotle Audit</a>
+      </div>
+    </div>
   </div>
 </section>
 
 <section>
-  <h2>Réalisations</h2>
+  <h2>Projektid</h2>
   <div style="max-width: 1100px; margin: auto; display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
-
     <div class="card">
       <h3>👗 Casaneo.io</h3>
-      <p>Plateforme SaaS d'affiliation marketing entre annonceurs et influenceurs.</p>
+      <p>SaaS platvorm reklaamijate ja mõjutajate vaheliseks turundusaffiliatsiooniks.</p>
       <a href="https://www.casaneo.io" target="_blank">www.casaneo.io</a>
     </div>
 
     <div class="card">
       <h3>💼 Pilloupill</h3>
-      <p>SaaS RH optimisant le recrutement.</p>
+      <p>Personalivaliku optimeerimise HR SaaS.</p>
       <a href="https://www.pilloupill.com" target="_blank">www.pilloupill.com</a>
     </div>
 
     <div class="card">
       <h3>🗓️ Pharmazepam</h3>
-      <p>SaaS de gestion de tâches récurrentes pour les équipes (compatible ISO 9001).</p>
+      <p>Meeskondade korduvate ülesannete haldamise SaaS (ISO 9001 vastav).</p>
     </div>
 
     <div class="card">
       <h3>🚑 Ed</h3>
-      <p>Application mobile de livraison de médicaments (Uber Eat du doliprane).</p>
-      <a href="https://play.google.com/store/apps/details?id=com.totum.ed" target="_blank">Voir sur le Play Store</a>
+      <p>Mobiilirakendus ravimite tarneteks (Uber Eats valuvaigistitele).</p>
+      <a href="https://play.google.com/store/apps/details?id=com.totum.ed" target="_blank">Vaata Play Poes</a>
     </div>
 
     <div class="card">
       <h3>🏖️ CorporateStays</h3>
-      <p>CRM de gestion de réservations (signature électronique, contrats, funnels... ).</p>
+      <p>Broneeringute haldamise CRM (elektrooniline allkiri, lepingud, lehtrid...).</p>
       <a href="https://www.corporatestays.com" target="_blank">www.corporatestays.com</a>
     </div>
 
     <div class="card">
-      <h3>💊 Totum Entreprise</h3>
-      <p>ERP SaaS pour réseau de 300 pharmacies et 1M de patients (BI, Stocks, Achats...).</p>
+      <h3>💊 Totum Enterprise</h3>
+      <p>SaaS ERP 300 apteegi võrgu ja 1M patsiendi jaoks (BI, Inventuur, Ost...).</p>
       <a href="https://www.totum.fr" target="_blank">www.totum.fr</a>
     </div>
 
     <div class="card">
       <h3>🍎 Pommegrenade</h3>
-      <p>SaaS de gestion de maison d'édition et de contenu avec versionning.</p>
+      <p>Kirjastuse ja sisu haldamise SaaS versioonidega.</p>
       <a href="https://www.pommegrenade.fr" target="_blank">www.pommegrenade.fr</a>
     </div>
 
     <div class="card">
       <h3>💰 Price-o-lizer</h3>
-      <p>SaaS d'analyse des prix du marché et de génération de politique de prix.</p>
+      <p>SaaS turuhindade analüüsiks ja hinnapoliitika genereerimiseks.</p>
     </div>
 
     <div class="card">
       <h3>📋 Biomedinfo</h3>
-      <p>Site de référence des biomédicaments en France, outil de gestion de contenu.</p>
+      <p>Biomeditsiini viitamissait Prantsusmaal, sisu haldamise tööriist.</p>
       <a href="https://www.biomedinfo.fr" target="_blank">www.biomedinfo.fr</a>
     </div>
 
     <div class="card">
       <h3>🌐 Cerca.io</h3>
-      <p>SaaS pour réseaux d'enseignes multi-sites. Simplifie la gestion opérationnelle.</p>
+      <p>Mitme kohaga jaemüügivõrkude SaaS. Lihtsustab operatiivset haldamist.</p>
       <a href="https://www.cerca.io" target="_blank">www.cerca.io</a>
     </div>
-
   </div>
 </section>
 
-
 <section class="contact" id="contact">
-  <h2>Démarrons votre projet</h2>
+  <h2>Alustame Teie Projekti</h2>
   <p>📧 <span class="email-protect">vivien<span style="display:none">nospam</span>@tedesco.ee</span></p>
   <div class="social-links">
     <a href="https://linkedin.com/in/vivientedesco" target="_blank"><i class="fab fa-linkedin"></i></a>
     <a href="https://github.com/vtedesco" target="_blank"><i class="fab fa-github"></i></a>
   </div>
   <div style="margin-top: 2rem;">
-    <a href="https://calendly.com/vivien-tedesco/30min" class="cta-button" target="_blank">Réserver un appel de 30 minutes</a>
+    <a href="https://calendly.com/vivien-tedesco/30min" class="cta-button" target="_blank">Broneeri 30-minutiline kõne</a>
   </div>
 </section>
 
 <footer>
-  &copy; 2025 Vivien — Développeur SaaS. Site conçu avec passion 🚀
+  &copy; 2025 Vivien — SaaS Arendaja. Sait disainitud kirgega 🚀
 </footer>
 
 </body>
-</html>
+</html> 
