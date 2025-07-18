@@ -353,6 +353,23 @@
     .mission-card.mvp-card .mission-cta:hover {
       background: #FF8E53;
     }
+
+    .mission-card.cto-card .mission-header {
+      background: linear-gradient(135deg, #32CD32 0%, #228B22 100%);
+    }
+
+    .mission-card.cto-card:hover {
+      transform: translateY(-5px) scale(1.02);    
+      box-shadow: 0 20px 40px rgba(50, 205, 50, 0.15);
+    }
+
+    .mission-card.cto-card .mission-cta {
+      background: #228B22;
+    } 
+
+    .mission-card.cto-card .mission-cta:hover {
+      background: #228B22;
+    } 
   </style>
 </head>
 <body>
@@ -443,7 +460,7 @@
 </section>
 
 <section class="missions">
-  <h2>Missions Types</h2>
+  <h2>Mes services</h2>
 
   <div class="missions-grid">
     <div class="mission-card mvp-card">
@@ -536,6 +553,24 @@
       </div>
     </div>
 
+    <div class="mission-card cto-card">
+      <div class="mission-header">
+        <i class="fas fa-user-tie"></i>
+        <h3>CTO à la demande</h3>
+        <span class="duration">Flexible</span>
+      </div>
+      <div class="mission-content">
+        <p>Accompagnement stratégique et technique pour vos projets Tech.</p>
+        <ul>
+          <li>Conseil en architecture</li>
+          <li>Gestion de projet</li>
+          <li>Mentorat d'équipe</li>
+          <li>Optimisation des processus</li>
+          <li>Développement de logiciels</li>
+        </ul>
+        <a href="https://calendly.com/vivien-tedesco/30min" class="mission-cta" target="_blank">Planifier une consultation</a>
+      </div>
+    </div>
   </div>
 </section>
 
